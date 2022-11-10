@@ -9,7 +9,7 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="620.0" prefWidth="620.0" style="-fx-background-color: #daa26a;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dame.HelloController">
+<GridPane fx:id="grid" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="620.0" prefWidth="620.0" style="-fx-background-color: #daa26a;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dame.HelloController">
   <columnConstraints>
       <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
       <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
@@ -35,316 +35,316 @@
       <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
   </rowConstraints>
    <children>
-      <Circle fill="WHITE" radius="18.0" stroke="WHITE" strokeType="INSIDE" GridPane.columnIndex="5" GridPane.rowIndex="1">
-         <GridPane.margin>
-            <Insets left="13.5" />
-         </GridPane.margin>
-      </Circle>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="4" GridPane.rowIndex="5" />
-      <Circle fill="#daa26a" radius="18.0" stroke="#f5f2f2" strokeType="INSIDE" visible="false" GridPane.columnIndex="1" GridPane.rowIndex="5">
-         <GridPane.margin>
-            <Insets left="13.5" />
-         </GridPane.margin></Circle>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="5" GridPane.rowIndex="4" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="5" GridPane.rowIndex="2" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="3" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="5" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="7" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="9" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.rowIndex="1" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="4" GridPane.rowIndex="1" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="6" GridPane.rowIndex="1" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="8" GridPane.rowIndex="1" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="3" GridPane.rowIndex="2" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="1" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="7" GridPane.rowIndex="2" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="9" GridPane.rowIndex="2" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.rowIndex="3" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="2" GridPane.rowIndex="3" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="4" GridPane.rowIndex="3" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="6" GridPane.rowIndex="3" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="8" GridPane.rowIndex="3" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.rowIndex="5" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="2" GridPane.rowIndex="5" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="3" GridPane.rowIndex="4" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="6" GridPane.rowIndex="5" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="7" GridPane.rowIndex="4" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="8" GridPane.rowIndex="5" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="9" GridPane.rowIndex="4" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="1" GridPane.rowIndex="6" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.rowIndex="7" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="1" GridPane.rowIndex="8" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.rowIndex="9" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="2" GridPane.rowIndex="7" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="2" GridPane.rowIndex="9" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="3" GridPane.rowIndex="6" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="3" GridPane.rowIndex="8" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="4" GridPane.rowIndex="7" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="4" GridPane.rowIndex="9" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="5" GridPane.rowIndex="8" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="5" GridPane.rowIndex="6" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="6" GridPane.rowIndex="7" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="6" GridPane.rowIndex="9" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="7" GridPane.rowIndex="6" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="7" GridPane.rowIndex="8" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="8" GridPane.rowIndex="9" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="8" GridPane.rowIndex="7" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="9" GridPane.rowIndex="6" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="9" GridPane.rowIndex="8" />
-      <Circle fill="#daa26a" radius="18.0" stroke="#f5f2f2" strokeType="INSIDE" visible="false" GridPane.columnIndex="3" GridPane.rowIndex="5">
-         <GridPane.margin>
-            <Insets left="13.5" />
-         </GridPane.margin>
-      </Circle>
-      <Circle fill="#daa26a" radius="18.0" stroke="#f5f2f2" strokeType="INSIDE" visible="false" GridPane.columnIndex="5" GridPane.rowIndex="5">
-         <GridPane.margin>
-            <Insets left="13.5" />
-         </GridPane.margin>
-      </Circle>
-      <Circle fill="#daa26a" radius="18.0" stroke="#f5f2f2" strokeType="INSIDE" visible="false" GridPane.columnIndex="7" GridPane.rowIndex="5">
-         <GridPane.margin>
-            <Insets left="13.5" />
-         </GridPane.margin>
-      </Circle>
-      <Circle fill="#daa26a" radius="18.0" stroke="#f5f2f2" strokeType="INSIDE" visible="false" GridPane.columnIndex="9" GridPane.rowIndex="5">
-         <GridPane.margin>
-            <Insets left="13.5" />
-         </GridPane.margin>
-      </Circle>
-      <Circle fill="#daa26a" radius="18.0" stroke="#f5f2f2" strokeType="INSIDE" visible="false" GridPane.rowIndex="4">
-         <GridPane.margin>
-            <Insets left="13.5" />
-         </GridPane.margin>
-      </Circle>
-      <Circle fill="#daa26a" radius="18.0" stroke="#f5f2f2" strokeType="INSIDE" visible="false" GridPane.columnIndex="2" GridPane.rowIndex="4">
-         <GridPane.margin>
-            <Insets left="13.5" />
-         </GridPane.margin>
-      </Circle>
-      <Circle fill="#daa26a" radius="18.0" stroke="#f5f2f2" strokeType="INSIDE" visible="false" GridPane.columnIndex="4" GridPane.rowIndex="4">
-         <GridPane.margin>
-            <Insets left="13.5" />
-         </GridPane.margin>
-      </Circle>
-      <Circle fill="#daa26a" radius="18.0" stroke="#f5f2f2" strokeType="INSIDE" visible="false" GridPane.columnIndex="6" GridPane.rowIndex="4">
-         <GridPane.margin>
-            <Insets left="13.5" />
-         </GridPane.margin>
-      </Circle>
-      <Circle fill="#daa26a" radius="18.0" stroke="#f5f2f2" strokeType="INSIDE" visible="false" GridPane.columnIndex="8" GridPane.rowIndex="4">
-         <GridPane.margin>
-            <Insets left="13.5" />
-         </GridPane.margin>
-      </Circle>
-      <Circle disable="true" fill="WHITE" radius="18.0" stroke="WHITE" strokeType="INSIDE" GridPane.columnIndex="4" GridPane.rowIndex="2">
-         <GridPane.margin>
-            <Insets left="13.5" />
-         </GridPane.margin>
-      </Circle>
-      <Circle fill="WHITE" radius="18.0" stroke="WHITE" strokeType="INSIDE" GridPane.columnIndex="2">
-         <GridPane.margin>
-            <Insets left="13.5" />
-         </GridPane.margin>
-      </Circle>
-      <Circle fill="WHITE" radius="18.0" stroke="WHITE" strokeType="INSIDE" GridPane.columnIndex="4">
-         <GridPane.margin>
-            <Insets left="13.5" />
-         </GridPane.margin>
-      </Circle>
       <Circle fill="WHITE" radius="18.0" stroke="WHITE" strokeType="INSIDE">
          <GridPane.margin>
             <Insets left="13.5" />
          </GridPane.margin>
       </Circle>
-      <Circle fill="WHITE" radius="18.0" stroke="WHITE" strokeType="INSIDE" GridPane.columnIndex="1" GridPane.rowIndex="1">
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+      <Circle fill="WHITE" radius="18.0" stroke="WHITE" strokeType="INSIDE" GridPane.columnIndex="2">
          <GridPane.margin>
             <Insets left="13.5" />
          </GridPane.margin>
       </Circle>
-      <Circle fill="WHITE" radius="18.0" stroke="WHITE" strokeType="INSIDE" GridPane.columnIndex="3" GridPane.rowIndex="1">
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="7" GridPane.rowIndex="2" />
+      <Circle fill="WHITE" radius="18.0" stroke="WHITE" strokeType="INSIDE" GridPane.columnIndex="4">
          <GridPane.margin>
             <Insets left="13.5" />
          </GridPane.margin>
       </Circle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.rowIndex="3" />
       <Circle fill="WHITE" radius="18.0" stroke="WHITE" strokeType="INSIDE" GridPane.columnIndex="6">
          <GridPane.margin>
             <Insets left="13.5" />
          </GridPane.margin>
       </Circle>
-      <Circle fill="WHITE" radius="18.0" stroke="WHITE" strokeType="INSIDE" GridPane.columnIndex="7" GridPane.rowIndex="1">
-         <GridPane.margin>
-            <Insets left="13.5" />
-         </GridPane.margin>
-      </Circle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="6" GridPane.rowIndex="3" />
       <Circle fill="WHITE" radius="18.0" stroke="WHITE" strokeType="INSIDE" GridPane.columnIndex="8">
          <GridPane.margin>
             <Insets left="13.5" />
          </GridPane.margin>
       </Circle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.rowIndex="5" />
+      <Circle fill="WHITE" radius="18.0" stroke="WHITE" strokeType="INSIDE" GridPane.columnIndex="1" GridPane.rowIndex="1">
+         <GridPane.margin>
+            <Insets left="13.5" />
+         </GridPane.margin>
+      </Circle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+      <Circle fill="WHITE" radius="18.0" stroke="WHITE" strokeType="INSIDE" GridPane.columnIndex="3" GridPane.rowIndex="1">
+         <GridPane.margin>
+            <Insets left="13.5" />
+         </GridPane.margin>
+      </Circle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+      <Circle fill="WHITE" radius="18.0" stroke="WHITE" strokeType="INSIDE" GridPane.columnIndex="5" GridPane.rowIndex="1">
+         <GridPane.margin>
+            <Insets left="13.5" />
+         </GridPane.margin>
+      </Circle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="6" GridPane.rowIndex="5" />
+      <Circle fill="WHITE" radius="18.0" stroke="WHITE" strokeType="INSIDE" GridPane.columnIndex="7" GridPane.rowIndex="1">
+         <GridPane.margin>
+            <Insets left="13.5" />
+         </GridPane.margin>
+      </Circle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="4" GridPane.rowIndex="5" />
       <Circle fill="WHITE" radius="18.0" stroke="WHITE" strokeType="INSIDE" GridPane.columnIndex="9" GridPane.rowIndex="1">
          <GridPane.margin>
             <Insets left="13.5" />
          </GridPane.margin>
       </Circle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="5" GridPane.rowIndex="4" />
       <Circle fill="WHITE" radius="18.0" stroke="WHITE" strokeType="INSIDE" GridPane.rowIndex="2">
          <GridPane.margin>
             <Insets left="13.5" />
          </GridPane.margin>
       </Circle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="4" GridPane.rowIndex="1" />
       <Circle fill="WHITE" radius="18.0" stroke="WHITE" strokeType="INSIDE" GridPane.columnIndex="2" GridPane.rowIndex="2">
          <GridPane.margin>
             <Insets left="13.5" />
          </GridPane.margin>
       </Circle>
-      <Circle radius="18.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="8" GridPane.rowIndex="8">
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+      <Circle disable="true" fill="WHITE" radius="18.0" stroke="WHITE" strokeType="INSIDE" GridPane.columnIndex="4" GridPane.rowIndex="2">
          <GridPane.margin>
             <Insets left="13.5" />
          </GridPane.margin>
       </Circle>
-      <Circle radius="18.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="9" GridPane.rowIndex="7">
-         <GridPane.margin>
-            <Insets left="13.5" />
-         </GridPane.margin>
-      </Circle>
-      <Circle radius="18.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="7" GridPane.rowIndex="7">
-         <GridPane.margin>
-            <Insets left="13.5" />
-         </GridPane.margin>
-      </Circle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="8" GridPane.rowIndex="3" />
       <Circle fill="WHITE" radius="18.0" stroke="WHITE" strokeType="INSIDE" GridPane.columnIndex="6" GridPane.rowIndex="2">
          <GridPane.margin>
             <Insets left="13.5" />
          </GridPane.margin>
       </Circle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="8" GridPane.rowIndex="5" />
       <Circle fill="WHITE" radius="18.0" stroke="WHITE" strokeType="INSIDE" GridPane.columnIndex="8" GridPane.rowIndex="2">
          <GridPane.margin>
             <Insets left="13.5" />
          </GridPane.margin>
       </Circle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="9" GridPane.rowIndex="4" />
       <Circle fill="WHITE" radius="18.0" stroke="WHITE" strokeType="INSIDE" GridPane.columnIndex="1" GridPane.rowIndex="3">
          <GridPane.margin>
             <Insets left="13.5" />
          </GridPane.margin>
       </Circle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="1" GridPane.rowIndex="8" />
       <Circle fill="WHITE" radius="18.0" stroke="WHITE" strokeType="INSIDE" GridPane.columnIndex="3" GridPane.rowIndex="3">
          <GridPane.margin>
             <Insets left="13.5" />
          </GridPane.margin>
       </Circle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="2" GridPane.rowIndex="7" />
       <Circle fill="WHITE" radius="18.0" stroke="WHITE" strokeType="INSIDE" GridPane.columnIndex="5" GridPane.rowIndex="3">
          <GridPane.margin>
             <Insets left="13.5" />
          </GridPane.margin>
       </Circle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="3" GridPane.rowIndex="6" />
       <Circle fill="WHITE" radius="18.0" stroke="WHITE" strokeType="INSIDE" GridPane.columnIndex="7" GridPane.rowIndex="3">
          <GridPane.margin>
             <Insets left="13.5" />
          </GridPane.margin>
       </Circle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="4" GridPane.rowIndex="7" />
       <Circle fill="WHITE" radius="18.0" stroke="WHITE" strokeType="INSIDE" GridPane.columnIndex="9" GridPane.rowIndex="3">
          <GridPane.margin>
             <Insets left="13.5" />
          </GridPane.margin>
       </Circle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="5" GridPane.rowIndex="8" />
+      <Circle fill="#daa26a" radius="18.0" stroke="#f5f2f2" strokeType="INSIDE" visible="false" GridPane.rowIndex="4">
+         <GridPane.margin>
+            <Insets left="13.5" />
+         </GridPane.margin>
+      </Circle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="3" />
+      <Circle fill="#daa26a" radius="18.0" stroke="#f5f2f2" strokeType="INSIDE" visible="false" GridPane.columnIndex="2" GridPane.rowIndex="4">
+         <GridPane.margin>
+            <Insets left="13.5" />
+         </GridPane.margin>
+      </Circle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.rowIndex="1" />
+      <Circle fill="#daa26a" radius="18.0" stroke="#f5f2f2" strokeType="INSIDE" visible="false" GridPane.columnIndex="4" GridPane.rowIndex="4">
+         <GridPane.margin>
+            <Insets left="13.5" />
+         </GridPane.margin>
+      </Circle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="6" GridPane.rowIndex="1" />
+      <Circle fill="#daa26a" radius="18.0" stroke="#f5f2f2" strokeType="INSIDE" visible="false" GridPane.columnIndex="6" GridPane.rowIndex="4">
+         <GridPane.margin>
+            <Insets left="13.5" />
+         </GridPane.margin>
+      </Circle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+      <Circle fill="#daa26a" radius="18.0" stroke="#f5f2f2" strokeType="INSIDE" visible="false" GridPane.columnIndex="8" GridPane.rowIndex="4">
+         <GridPane.margin>
+            <Insets left="13.5" />
+         </GridPane.margin>
+      </Circle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+      <Circle fill="#daa26a" radius="18.0" stroke="#f5f2f2" strokeType="INSIDE" visible="false" GridPane.columnIndex="1" GridPane.rowIndex="5">
+         <GridPane.margin>
+            <Insets left="13.5" />
+         </GridPane.margin></Circle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="7" GridPane.rowIndex="4" />
+      <Circle fill="#daa26a" radius="18.0" stroke="#f5f2f2" strokeType="INSIDE" visible="false" GridPane.columnIndex="3" GridPane.rowIndex="5">
+         <GridPane.margin>
+            <Insets left="13.5" />
+         </GridPane.margin>
+      </Circle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.rowIndex="7" />
+      <Circle fill="#daa26a" radius="18.0" stroke="#f5f2f2" strokeType="INSIDE" visible="false" GridPane.columnIndex="5" GridPane.rowIndex="5">
+         <GridPane.margin>
+            <Insets left="13.5" />
+         </GridPane.margin>
+      </Circle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="2" GridPane.rowIndex="9" />
+      <Circle fill="#daa26a" radius="18.0" stroke="#f5f2f2" strokeType="INSIDE" visible="false" GridPane.columnIndex="7" GridPane.rowIndex="5">
+         <GridPane.margin>
+            <Insets left="13.5" />
+         </GridPane.margin>
+      </Circle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="4" GridPane.rowIndex="9" />
+      <Circle fill="#daa26a" radius="18.0" stroke="#f5f2f2" strokeType="INSIDE" visible="false" GridPane.columnIndex="9" GridPane.rowIndex="5">
+         <GridPane.margin>
+            <Insets left="13.5" />
+         </GridPane.margin>
+      </Circle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="6" GridPane.rowIndex="7" />
       <Circle radius="18.0" stroke="BLACK" strokeType="INSIDE" GridPane.rowIndex="6">
          <GridPane.margin>
             <Insets left="13.5" />
          </GridPane.margin>
       </Circle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="7" GridPane.rowIndex="6" />
       <Circle radius="18.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="2" GridPane.rowIndex="6">
          <GridPane.margin>
             <Insets left="13.5" />
          </GridPane.margin>
       </Circle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="7" GridPane.rowIndex="8" />
       <Circle radius="18.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="4" GridPane.rowIndex="6">
          <GridPane.margin>
             <Insets left="13.5" />
          </GridPane.margin>
       </Circle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="8" GridPane.rowIndex="7" />
       <Circle radius="18.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="6" GridPane.rowIndex="6">
          <GridPane.margin>
             <Insets left="13.5" />
          </GridPane.margin>
       </Circle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="9" GridPane.rowIndex="6" />
       <Circle radius="18.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="8" GridPane.rowIndex="6">
          <GridPane.margin>
             <Insets left="13.5" />
          </GridPane.margin>
       </Circle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="5" GridPane.rowIndex="2" />
       <Circle radius="18.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="1" GridPane.rowIndex="7">
          <GridPane.margin>
             <Insets left="13.5" />
          </GridPane.margin>
       </Circle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="5" />
       <Circle radius="18.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="3" GridPane.rowIndex="7">
          <GridPane.margin>
             <Insets left="13.5" />
          </GridPane.margin>
       </Circle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="7" />
       <Circle radius="18.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="5" GridPane.rowIndex="7">
          <GridPane.margin>
             <Insets left="13.5" />
          </GridPane.margin>
       </Circle>
-      <Circle radius="18.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="9" GridPane.rowIndex="9">
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="9" />
+      <Circle radius="18.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="7" GridPane.rowIndex="7">
          <GridPane.margin>
             <Insets left="13.5" />
          </GridPane.margin>
       </Circle>
-      <Circle radius="18.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="7" GridPane.rowIndex="9">
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+      <Circle radius="18.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="9" GridPane.rowIndex="7">
          <GridPane.margin>
             <Insets left="13.5" />
          </GridPane.margin>
       </Circle>
-      <Circle radius="18.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="6" GridPane.rowIndex="8">
-         <GridPane.margin>
-            <Insets left="13.5" />
-         </GridPane.margin>
-      </Circle>
-      <Circle radius="18.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="5" GridPane.rowIndex="9">
-         <GridPane.margin>
-            <Insets left="13.5" />
-         </GridPane.margin>
-      </Circle>
-      <Circle radius="18.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="4" GridPane.rowIndex="8">
-         <GridPane.margin>
-            <Insets left="13.5" />
-         </GridPane.margin>
-      </Circle>
-      <Circle radius="18.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="2" GridPane.rowIndex="8">
-         <GridPane.margin>
-            <Insets left="13.5" />
-         </GridPane.margin>
-      </Circle>
-      <Circle radius="18.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="3" GridPane.rowIndex="9">
-         <GridPane.margin>
-            <Insets left="13.5" />
-         </GridPane.margin>
-      </Circle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="8" GridPane.rowIndex="1" />
       <Circle radius="18.0" stroke="BLACK" strokeType="INSIDE" GridPane.rowIndex="8">
          <GridPane.margin>
             <Insets left="13.5" />
          </GridPane.margin>
       </Circle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="1" />
+      <Circle radius="18.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="2" GridPane.rowIndex="8">
+         <GridPane.margin>
+            <Insets left="13.5" />
+         </GridPane.margin>
+      </Circle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="9" GridPane.rowIndex="2" />
+      <Circle radius="18.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="4" GridPane.rowIndex="8">
+         <GridPane.margin>
+            <Insets left="13.5" />
+         </GridPane.margin>
+      </Circle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+      <Circle radius="18.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="6" GridPane.rowIndex="8">
+         <GridPane.margin>
+            <Insets left="13.5" />
+         </GridPane.margin>
+      </Circle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+      <Circle radius="18.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="8" GridPane.rowIndex="8">
+         <GridPane.margin>
+            <Insets left="13.5" />
+         </GridPane.margin>
+      </Circle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.rowIndex="9" />
       <Circle radius="18.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="1" GridPane.rowIndex="9">
          <GridPane.margin>
             <Insets left="13.5" />
          </GridPane.margin>
       </Circle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="3" GridPane.rowIndex="8" />
+      <Circle radius="18.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="3" GridPane.rowIndex="9">
+         <GridPane.margin>
+            <Insets left="13.5" />
+         </GridPane.margin>
+      </Circle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="5" GridPane.rowIndex="6" />
+      <Circle radius="18.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="5" GridPane.rowIndex="9">
+         <GridPane.margin>
+            <Insets left="13.5" />
+         </GridPane.margin>
+      </Circle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="6" GridPane.rowIndex="9" />
+      <Circle radius="18.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="7" GridPane.rowIndex="9">
+         <GridPane.margin>
+            <Insets left="13.5" />
+         </GridPane.margin>
+      </Circle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="8" GridPane.rowIndex="9" />
+      <Circle radius="18.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="9" GridPane.rowIndex="9">
+         <GridPane.margin>
+            <Insets left="13.5" />
+         </GridPane.margin>
+      </Circle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9969" height="63.0" stroke="BLACK" strokeType="INSIDE" width="63.0" GridPane.columnIndex="9" GridPane.rowIndex="8" />
       <Button mnemonicParsing="false" opacity="0.0" prefHeight="97.0" prefWidth="103.0" style="-fx-background-color: #daa26a;" GridPane.columnIndex="7" GridPane.rowIndex="5">
          <font>
             <Font name="System Bold" size="1.0" />
          </font>
       </Button>
-      <Button mnemonicParsing="false" opacity="0.0" prefHeight="97.0" prefWidth="103.0" style="-fx-background-color: #daa26a;" GridPane.columnIndex="5" GridPane.rowIndex="5">
+      <Button mnemonicParsing="false" onAction="#avance" opacity="0.0" prefHeight="97.0" prefWidth="103.0" style="-fx-background-color: #daa26a;" GridPane.columnIndex="5" GridPane.rowIndex="5">
          <font>
             <Font name="System Bold" size="1.0" />
          </font>
       </Button>
-      <Button mnemonicParsing="false" opacity="0.0" prefHeight="97.0" prefWidth="103.0" style="-fx-background-color: #daa26a;" GridPane.columnIndex="3" GridPane.rowIndex="5">
+      <Button mnemonicParsing="false" onAction="#avance" opacity="0.0" prefHeight="97.0" prefWidth="103.0" style="-fx-background-color: #daa26a;" GridPane.columnIndex="3" GridPane.rowIndex="5">
          <font>
             <Font name="System Bold" size="1.0" />
          </font>
@@ -479,27 +479,27 @@
             <Font name="System Bold" size="1.0" />
          </font>
       </Button>
-      <Button mnemonicParsing="false" opacity="0.0" prefHeight="97.0" prefWidth="103.0" style="-fx-background-color: #daa26a;" GridPane.rowIndex="6">
+      <Button mnemonicParsing="false" onAction="#avance" opacity="0.0" prefHeight="97.0" prefWidth="103.0" style="-fx-background-color: #daa26a;" GridPane.rowIndex="6">
          <font>
             <Font name="System Bold" size="1.0" />
          </font>
       </Button>
-      <Button mnemonicParsing="false" opacity="0.0" prefHeight="97.0" prefWidth="103.0" style="-fx-background-color: #daa26a;" GridPane.columnIndex="2" GridPane.rowIndex="6">
+      <Button mnemonicParsing="false" onAction="#avance" opacity="0.0" prefHeight="97.0" prefWidth="103.0" style="-fx-background-color: #daa26a;" GridPane.columnIndex="2" GridPane.rowIndex="6">
          <font>
             <Font name="System Bold" size="1.0" />
          </font>
       </Button>
-      <Button mnemonicParsing="false" opacity="0.0" prefHeight="97.0" prefWidth="103.0" style="-fx-background-color: #daa26a;" GridPane.columnIndex="4" GridPane.rowIndex="6">
+      <Button mnemonicParsing="false" onAction="#avance" opacity="0.0" prefHeight="97.0" prefWidth="103.0" style="-fx-background-color: #daa26a;" GridPane.columnIndex="4" GridPane.rowIndex="6">
          <font>
             <Font name="System Bold" size="1.0" />
          </font>
       </Button>
-      <Button mnemonicParsing="false" opacity="0.0" prefHeight="97.0" prefWidth="103.0" style="-fx-background-color: #daa26a;" GridPane.columnIndex="6" GridPane.rowIndex="6">
+      <Button mnemonicParsing="false" onAction="#avance" opacity="0.0" prefHeight="97.0" prefWidth="103.0" style="-fx-background-color: #daa26a;" GridPane.columnIndex="6" GridPane.rowIndex="6">
          <font>
             <Font name="System Bold" size="1.0" />
          </font>
       </Button>
-      <Button mnemonicParsing="false" opacity="0.0" prefHeight="97.0" prefWidth="103.0" style="-fx-background-color: #daa26a;" GridPane.columnIndex="8" GridPane.rowIndex="6">
+      <Button mnemonicParsing="false" onAction="#avance" opacity="0.0" prefHeight="97.0" prefWidth="103.0" style="-fx-background-color: #daa26a;" GridPane.columnIndex="8" GridPane.rowIndex="6">
          <font>
             <Font name="System Bold" size="1.0" />
          </font>
